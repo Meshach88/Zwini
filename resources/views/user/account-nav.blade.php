@@ -6,9 +6,12 @@
     <li><a href="account-wishlist.html" class="menu-link menu-link_us-s">Wishlist</a></li>
 
     <li>
-        <form action="{{ route('logout') }}" method="post" id='logout-form'>
+        <form method="POST" action="{{ route('logout') }}" id='logout-form'>
             @csrf
-            <a href="{{ route('logout') }}" class="menu-link menu-link_us-s" onclick="event.preventDefalut();document.getElementById('logout-form').submit()">Logout</a>
+            <a href="{{ route('logout') }}" class="menu-link menu-link_us-s" onclick="event.preventDefault();document.getElementById('logout-form').submit()">Logout</a>
+            {{-- <div class="menu-link menu-link_us-s">
+                <button type="submit">Logout</button>
+            </div> --}}
         </form>
     </li>
   </ul>
