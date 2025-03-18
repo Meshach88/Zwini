@@ -11,7 +11,7 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="surfside media" />
+    <meta name="author" content="Zwini" />
     <link rel="shortcut icon" href="{{ asset('assets/images/favicon.ico') }}" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com/">
     <link
@@ -274,7 +274,7 @@
 
             <div class="logo">
                 <a href="index.html">
-                    <img src="{{ asset('assets/images/logo.png') }}" alt="Uomo" class="logo__image d-block" />
+                    <img src="{{ asset('assets/images/logo.png') }}" alt="Zwini" class="logo__image d-block" />
                 </a>
             </div>
 
@@ -395,7 +395,7 @@
             <div class="header-desk header-desk_type_1">
                 <div class="logo">
                     <a href="index.html">
-                        <img src="{{ asset('assets/images/logo.png') }}" alt="Uomo"
+                        <img src="{{ asset('assets/images/logo.png') }}" alt="Zwini"
                             class="logo__image d-block" />
                     </a>
                 </div>
@@ -523,7 +523,7 @@
                 <div class="footer-column footer-store-info col-12 mb-4 mb-lg-0">
                     <div class="logo">
                         <a href="index.html">
-                            <img src="{{ asset('assets/images/logo.png') }}" alt="SurfsideMedia"
+                            <img src="{{ asset('assets/images/logo.png') }}" alt="Zwini"
                                 class="logo__image d-block" />
                         </a>
                     </div>
